@@ -44,7 +44,7 @@ public class MainActivity extends Activity {
 
     SQLiteDatabase db;
 
-    ArrayList<MyCar> al = new ArrayList<MyCar>();
+    ArrayList<MyMedicine> al = new ArrayList<MyMedicine>();
 
     Button btnInsert, btnDelete, btnUpdate, btnSelectAll, btnRun;
 
@@ -108,19 +108,7 @@ public class MainActivity extends Activity {
 
         File file = new File(fileChk);
 
-        if (!file.exists()) {
 
-            insert("XJR", "Jang", 7777);
-
-            insert("K5", "Seo", 3333);
-
-            insert("YFSonata", "Ryu", 2222);
-
-            insert("Avante", "Park", 8888);
-
-            insert("Tico", "Lim", 0000);
-
-        }
 
 
 
@@ -142,13 +130,13 @@ public class MainActivity extends Activity {
 
                 et3.setEnabled(true);
 
-                tv.setText("차량 추가");
+                tv.setText("약 추가");
 
-                et1.setHint("차량 이름 입력");
+                et1.setHint("약 이름 입력");
 
-                et2.setHint("차주 입력");
+                et2.setHint("복용주기 입력");
 
-                et3.setHint("차량번호 입력");
+                et3.setHint("수량 입력");
 
                 Toast.makeText(MainActivity.this, "정보입력 후 실행 입력",
 
@@ -180,15 +168,15 @@ public class MainActivity extends Activity {
 
                 et3.setEnabled(true);
 
-                tv.setText("차량 삭제");
+                tv.setText("약 삭제");
 
                 et1.setHint("-");
 
                 et2.setHint("-");
 
-                et3.setHint("삭제할 차량번호 입력");
+                et3.setHint("삭제할 약 명 입력");
 
-                Toast.makeText(MainActivity.this, "차량번호 입력 후 실행 입력",
+                Toast.makeText(MainActivity.this, "약명  입력 후 실행 입력",
 
                         Toast.LENGTH_SHORT).show();
 
@@ -218,13 +206,13 @@ public class MainActivity extends Activity {
 
                 et3.setEnabled(true);
 
-                tv.setText("차량 수정");
+                tv.setText("약 수정");
 
-                et1.setHint("수정할 차량명 입력");
+                et1.setHint("수정할 약 명 입력");
 
-                et2.setHint("수정할 차주명 입력");
+                et2.setHint("수정할 복용주기 입력");
 
-                et3.setHint("수정할 차량번호 입력");
+                et3.setHint("수정할 수량 입력");
 
                 Toast.makeText(MainActivity.this, "정보 입력 후 실행 입력",
 
