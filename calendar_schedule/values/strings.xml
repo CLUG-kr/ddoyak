@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyCalendar</string>
+    <string name="action_settings">일정관리</string>
+    <string name="schedule">일정</string>
+    <string name="time">시간</string>
+    <string name="save">저장</string>
+    <string name="exit">닫기</string>
+</resources>
