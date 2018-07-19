@@ -44,7 +44,7 @@ public class MainActivity extends Activity {
 
     SQLiteDatabase db;
 
-    ArrayList<MyCar> al = new ArrayList<MyCar>();
+    ArrayList<MyMedicine> al = new ArrayList<MyMedicine>();
 
     Button btnInsert, btnDelete, btnUpdate, btnSelectAll, btnRun;
 
