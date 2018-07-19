@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "437050230581",
+    "firebase_url": "https://realddoyak.firebaseio.com",
+    "project_id": "realddoyak",
+    "storage_bucket": "realddoyak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437050230581:android:40e77fe2f8094156",
+        "android_client_info": {
+          "package_name": "org.androidtown.ddoalarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437050230581-m5j3lpcn86jutsgqrmnbsfeg5km484h0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm2UF2LzZp-WvCeOGB4NfXOxpUEOVt4vM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
